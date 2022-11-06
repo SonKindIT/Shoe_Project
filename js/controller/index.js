@@ -49,7 +49,7 @@ renderProduct = (data) => {
           <div class="carousel-content col-5">
             <h3 class="d-md-block d-none">${data[index].name}</h3>
             <p class="d-md-block d-none">${data[index].description.length>20?data[index].description.substr(0,20)+"...":data[index].description}</p>
-            <a href="">Buy now</a>
+            <a href="./detail.html?id=${data[index].id}" >Buy now</a>
           </div>
         </div>
         </div>

@@ -9,7 +9,7 @@ renDerShoeRelate = (arrShoe) => {
                 <p class="product-name">${shoe.name}</p>
                 <p class="desc">${shoe.description.length>20?shoe.description.substr(0,20):shoe.description}</p>
                 <div class="button-wrapper">
-                    <button class="buy-now">Buy now</button>
+                    <a href="./detail.html?id=${shoe.id}" class="buy-now">Buy now</a>
                     <span class="price">${shoe.price}$</span>
                 </div>
             </div>
